@@ -1,0 +1,21 @@
+@import '../utils/variables';
+
+.logo {
+    font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+  
+.logo--opp {
+    color: $color-primary;
+  }
+.nav__logo {
+    $color-logo: #000000;
+    color: $color-logo;
+    margin-right: 93px;
+  }
+
+.logo--current,
+.link--current {
+  color: $color-accent;
+}

@@ -1,0 +1,38 @@
+@import '../utils/variables';
+
+.grid-cardset {
+    display: flex;
+    flex-basis: calc(100%-3 * 370);
+    flex-wrap: wrap;
+  
+    margin-top: -30px;
+    margin-right: -30px;
+  }
+  
+  .grid-cardset__img {
+    max-width: 370px;
+  }
+  
+  .grid-cardset__item {
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: $color-primary;
+  }
+  
+  .grid-cardset__data {
+    border: 1px solid #eeeeee;
+    padding: 20px 24px;
+  }
+  
+  .grid-cardset__link {
+    position: relative;
+    display: inline-block;
+  
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .grid-cardset__link:hover,
+  .grid-cardset__link:focus {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12),
+      0px 40px 40px rgba(0, 0, 0, 0.06), 10px 40px 60px rgba(0, 0, 0, 0.16);
+  }

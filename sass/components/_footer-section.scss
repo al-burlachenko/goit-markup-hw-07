@@ -1,0 +1,59 @@
+@import '../utils/variables';
+
+.footer {
+    background-color: $color-footerbg;
+    font-weight: 400;
+    color: $color-primary;
+  }
+  
+  .footer-layout {
+    padding: 60px 15px;
+    display: flex;
+  }
+  
+  .footer__link {
+    color: $color-primary;
+  }
+  
+  .footer-contacts {
+    margin-top: 9px;
+    color:$color-black; 
+    opacity: 0.6;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  
+  .footer__address {
+    margin-top: 20px;
+  }
+  
+  .footer__part {
+    margin-right: 70px;
+  }
+  
+  .footer__part h2 {
+    text-align: left;
+  }
+  
+  .footer__title {
+    color: $color-primary;
+    font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .footer__label {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  
+
