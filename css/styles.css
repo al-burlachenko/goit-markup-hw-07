@@ -53,7 +53,6 @@ img {
 
 .section:first-child {
   max-width: 1600px;
-  /* height: 100%; */
   background-color: #2f303a;
   background-image: linear-gradient(to right, #2f303a66, #2f303a66),
     url("../images/background-img.jpg");
@@ -87,7 +86,6 @@ img {
   top: 0;
   left: 0;
   position: absolute;
-
 }
 
 /* HEADER */
@@ -114,7 +112,7 @@ img {
   display: flex;
   position: relative;
   align-items: baseline;
-  
+
   margin-right: 50px;
   letter-spacing: 0.02em;
 }
@@ -159,7 +157,6 @@ img {
   min-height: 80px;
   padding: 0px 0px;
 }
-
 
 .contacts-list {
   display: flex;
@@ -208,9 +205,10 @@ img {
   border-radius: 2px;
 }
 
- .logo--current, .link--current {
+.logo--current,
+.link--current {
   color: var(--сurrent-color);
- }
+}
 
 /* HERO  */
 
@@ -258,7 +256,7 @@ img {
 }
 
 .section__item:last-child {
-  margin-right: 0px; 
+  margin-right: 0px;
 }
 
 .item__title {
@@ -285,11 +283,11 @@ img {
 
 /* MIDDLE-SECOND-PART  */
 
-.within-section-gap {
+.section__within-gap {
   margin-top: 95px;
 }
 
-.section-title {
+.section__title {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
@@ -368,20 +366,20 @@ img {
   max-width: 270px;
 }
 
-.cardset-data {
+.cardset__data {
   display: block;
   padding: 30px 32px;
   background-color: var(--opp-color);
 }
 
-.cardset-data__title {
+.cardset__data-title {
   font-size: 16px;
   line-height: 1.19;
 
   text-align: center;
 }
 
-.cardset-data__text {
+.cardset__data-text {
   color: var(--alt-color);
   font-size: 16px;
   line-height: 1.19;
@@ -503,7 +501,6 @@ img {
 
 .footer__part {
   margin-right: 70px;
-  /* outline: 1px solid blue; */
 }
 
 .footer__part h2 {
@@ -581,7 +578,6 @@ img {
   display: inline-block;
   padding: 7px 22px;
 }
-
 
 /* Сетка  */
 
@@ -677,26 +673,38 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   visibility: visible;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ; 
+    
   z-index: 1;
 }
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.9);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: none;
+  transform: scale(1.2);
+}
+
+/* Сама модалка, геометрия и тд  */
 
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* закомментить, если не надо  */
-  /* max-height: 581px;
-     max-width: 528px; */
+  transform: translate(-50%, -50%);
   background-color: var(--opp-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
+  visibility: visible;
 }
 
 .modal__form {
@@ -732,19 +740,7 @@ img {
   height: 11px;
 }
 
-/* .button  */
-
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.9);
-}
-
 .footer-link__icon {
-
   width: 24px;
   height: 24px;
 
@@ -755,9 +751,7 @@ img {
 .footer__form {
   display: flex;
   margin-left: 93px;
-
 }
-
 
 .footer__input {
   box-sizing: border-box;
@@ -768,12 +762,11 @@ img {
   padding-left: 16px;
   background: var(--footer-colour);
   margin-top: auto;
-  margin-bottom:auto; 
+  margin-bottom: auto;
 
   color: var(--opp-color);
   opacity: 0.3;
 }
-
 
 /* Forms  */
 
@@ -793,7 +786,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin-left: 12px;
   margin-top: auto;
-  margin-bottom:auto; 
+  margin-bottom: auto;
 
   justify-content: center;
   align-items: center;
@@ -805,14 +798,14 @@ img {
   flex-direction: column;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
-.modal__top-gap {
+.form-field--gap {
   margin-top: 28px;
 }
 
-.modal__beth-gap {
+.form-field--top-gap {
   margin-top: 30px;
 }
 
@@ -820,20 +813,7 @@ img {
   fill: var(--сurrent-color);
 }
 
-.checkbox-submit {
-  display: flex;
-  margin-top: 30px;
-  margin-bottom: 0;
-
-  align-items: center;
-  justify-content: center;
-  color: var(--alt-color);
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
+/* Checkbox  */
 
 .modal__memo {
   display: block;
@@ -890,12 +870,22 @@ img {
   margin: 30px auto 0 auto;
 }
 
-.checkbox {
-  /* -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
- */
+.checkbox-submit {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 0;
 
+  align-items: center;
+  justify-content: center;
+  color: var(--alt-color);
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.checkbox-submit__checkbox {
   position: absolute;
 
   width: 1px;
@@ -908,7 +898,7 @@ img {
   overflow: hidden;
 }
 
-.checkbox-submit .icon {
+.checkbox-submit__icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -918,7 +908,7 @@ img {
   margin-right: 8px;
 }
 
-.checkbox:checked ~ .icon {
+.checkbox-submit__checkbox:checked ~ .checkbox-submit__icon {
   background-color: var(--сurrent-color);
   background-image: url(../images/icon-check.svg);
   background-size: contain;

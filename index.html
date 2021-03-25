@@ -26,7 +26,9 @@
           >
           <ul class="nav-list">
             <li class="nav-list__item">
-              <a href="./index.html" class="nav-list__link link--current">Студия</a>
+              <a href="./index.html" class="nav-list__link link--current"
+                >Студия</a
+              >
             </li>
             <li class="nav-list__item">
               <a href="./portfolio.html" class="nav-list__link">Портфолио</a>
@@ -127,23 +129,35 @@
 
           <!-- middle-section-second -->
 
-          <section class="section within-section-gap">
-            <h2 class="section-title">Чем мы занимаемся</h2>
+          <section class="section section__within-gap">
+            <h2 class="section__title">Чем мы занимаемся</h2>
             <ul class="gallery">
               <li class="gallery__item">
-                <img src="./images/img_1.jpg" alt="Алгоритмы" class="gallery__img"/>
+                <img
+                  src="./images/img_1.jpg"
+                  alt="Алгоритмы"
+                  class="gallery__img"
+                />
                 <div class="gallery__title">
                   <p class="gallery__caption">Десктопные приложения</p>
                 </div>
               </li>
               <li class="gallery__item">
-                <img src="./images//img_2.jpg" alt="Мобильная разработка" class="gallery__img"/>
+                <img
+                  src="./images//img_2.jpg"
+                  alt="Мобильная разработка"
+                  class="gallery__img"
+                />
                 <div class="gallery__title">
                   <p class="gallery__caption">Мобильные приложения</p>
                 </div>
               </li>
               <li class="gallery__item">
-                <img src="./images//img_3.jpg" alt="Дизайн" class="gallery__img" />
+                <img
+                  src="./images//img_3.jpg"
+                  alt="Дизайн"
+                  class="gallery__img"
+                />
                 <div class="gallery__title">
                   <p class="gallery__caption">Дизайнерские решения</p>
                 </div>
@@ -156,7 +170,7 @@
       <!-- bottom-section -->
       <section class="section">
         <div class="container bottom-section">
-          <h2 class="section-title">Наша команда</h2>
+          <h2 class="section__title">Наша команда</h2>
           <ul class="bottom-cardset">
             <li class="bottom-cardset__item">
               <img
@@ -165,9 +179,9 @@
                 title="Product Designer"
                 class="bottom-cardset__img"
               />
-              <div class="cardset-data">
-                <h3 class="cardset-data__title">Игорь Демьяненко</h3>
-                <p lang="en" class="cardset-data__text">Product Designer</p>
+              <div class="cardset__data">
+                <h3 class="cardset__data-title">Игорь Демьяненко</h3>
+                <p lang="en" class="cardset__data-text">Product Designer</p>
 
                 <!-- social-block  -->
                 <div class="social-block">
@@ -237,9 +251,9 @@
                 title="Frontend Developer"
                 class="bottom-cardset__img"
               />
-              <div class="cardset-data">
-                <h3 class="cardset-data__title">Ольга Репина</h3>
-                <p lang="en" class="cardset-data__text">Frontend Developer</p>
+              <div class="cardset__data">
+                <h3 class="cardset__data-title">Ольга Репина</h3>
+                <p lang="en" class="cardset__data-text">Frontend Developer</p>
                 <!-- social-block  -->
                 <div class="social-block">
                   <ul class="social">
@@ -308,9 +322,9 @@
                 title="Marketing"
                 class="bottom-cardset__img"
               />
-              <div class="cardset-data">
-                <h3 class="cardset-data__title">Николай Тарасов</h3>
-                <p lang="en" class="cardset-data__text">Marketing</p>
+              <div class="cardset__data">
+                <h3 class="cardset__data-title">Николай Тарасов</h3>
+                <p lang="en" class="cardset__data-text">Marketing</p>
                 <!-- social-block  -->
                 <div class="social-block">
                   <ul class="social">
@@ -379,9 +393,9 @@
                 title="UI Designer"
                 class="bottom-cardset__img"
               />
-              <div class="cardset-data">
-                <h3 class="cardset-data__title">Михаил Ермаков</h3>
-                <p lang="en" class="cardset-data__text">UI Designer</p>
+              <div class="cardset__data">
+                <h3 class="cardset__data-title">Михаил Ермаков</h3>
+                <p lang="en" class="cardset__data-text">UI Designer</p>
                 <!-- social-block  -->
                 <div class="social-block">
                   <ul class="social">
@@ -450,7 +464,7 @@
     <!-- SVG-BOTTOM_SECTION  -->
     <section>
       <div class="container">
-        <h2 class="section-title">Постоянные клиенты</h2>
+        <h2 class="section__title">Постоянные клиенты</h2>
         <ul class="partners-list">
           <li class="partners-list__item">
             <a
@@ -644,24 +658,28 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop" data-modal> -->
+      <div class="backdrop is-hidden" data-modal>
+      <!-- Модальное окно  -->
       <div class="modal">
         <button data-modal-close class="modal-close">
           <svg class="modal-close__icon">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <form class="modal__form ">
+        <form class="modal__form">
           <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
-          <div class="form-field modal__beth-gap">
+          
+          <div class="form-field form-field--top-gap">
+            
             <label for="name" class="modal__label">Имя</label>
-            <input type="name" name="name" id="name" class="modal__input"/>
+            <input type="name" name="name" id="name" class="modal__input" />
             <svg class="modal__icon">
               <use href="./images/icons.svg#icon-name"></use>
             </svg>
           </div>
 
-          <div class="form-field modal__top-gap">
+          <div class="form-field form-field--gap">
             <label for="tel" class="modal__label">Телефон</label>
             <input type="tel" name="tel" id="tel" class="modal__input" />
             <svg class="modal__icon">
@@ -669,7 +687,7 @@
             </svg>
           </div>
 
-          <div class="form-field modal__top-gap">
+          <div class="form-field form-field--gap">
             <label for="mail" class="modal__label">Почта</label>
             <input type="email" name="mail" id="mail" class="modal__input" />
             <svg class="modal__icon">
@@ -677,26 +695,27 @@
             </svg>
           </div>
 
-          <div class="form-field modal__top-gap">
+          <div class="form-field form-field--gap">
             <label for="comment" class="modal__label">Комментарий</label>
             <textarea
               name=""
               id="comment"
               cols="30"
               rows="10"
-              placeholder="Введите текст" 
+              placeholder="Введите текст"
               class="modal__memo"
             ></textarea>
           </div>
 
+          <!-- Чекбокс  -->
           <label for="checkbox-submit" class="checkbox-submit">
             <input
               type="checkbox"
               name=""
               id="checkbox-submit"
-              class="checkbox"
+              class="checkbox-submit__checkbox"
             />
-            <span class="icon"></span>
+            <span class="checkbox-submit__icon"></span>
             <span>
               Соглашаюсь с рассылкой и принимаю
               <a href="#" class="underline-link">Условия договора</a>
