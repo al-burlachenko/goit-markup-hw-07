@@ -27,23 +27,155 @@ img {
 }
 
 .logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
   font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
   font-weight: 700;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
 }
 
 .logo--opp {
   color: #ffffff;
 }
 
+.logo--current {
+  color: #2196f3;
+}
+
 .nav__logo {
   color: #000000;
   margin-right: 93px;
-}
-
-.logo--current,
-.link--current {
-  color: #2196f3;
 }
 
 .container {
@@ -53,13 +185,149 @@ img {
   margin-left: auto;
 }
 
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
 .footer-link,
 .modal-link {
   color: #ffffff;
   background-color: #2196f3;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,6 +359,145 @@ img {
   overflow: hidden;
 }
 
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
 .header {
   background-color: #ffffff;
   position: -webkit-sticky;
@@ -100,18 +507,42 @@ img {
   z-index: 1;
 }
 
+.header-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80px;
+  padding: 0px 0px;
+}
+
 .bordered {
   border-bottom: 1px solid #ececec;
 }
 
-.nav,
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.contacts-list__item,
 .nav-list__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,7 +552,28 @@ img {
       -ms-flex-align: baseline;
           align-items: baseline;
   margin-right: 50px;
-  letter-spacing: 0.02em;
+}
+
+.contacts-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-right: 50px;
+}
+
+.contacts-list__item:last-child {
+  margin-right: 0px;
 }
 
 .contacts-list__icon {
@@ -141,34 +593,11 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-list__link:hover,
-.contacts-list__link:focus {
+.contacts-list__link:hover, .contacts-list__link:focus {
   color: #2196f3;
 }
 
-.header-layout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 80px;
-  padding: 0px 0px;
-}
-
-.contacts-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-}
-
-.nav__item:last-child,
-.contacts-list__item:last-child {
+.nav__item:last-child {
   margin-right: 0px;
 }
 
@@ -180,8 +609,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list__link:hover,
-.nav-list__link:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: #2196f3;
 }
 
@@ -198,12 +626,147 @@ img {
   border-radius: 2px;
 }
 
-.main-page {
-  color: #212121;
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-weight: 500;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
   font-size: 14px;
   line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.main-page {
+  color: #212121;
 }
 
 .section:first-child {
@@ -225,36 +788,303 @@ img {
   background-color: #f5f4fa;
 }
 
-.hero {
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
   font-weight: 900;
-  color: #ffffff;
-  padding: 200px 252px;
+  text-transform: uppercase;
+  text-align: center;
   letter-spacing: 0.06em;
   text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero {
+  color: #ffffff;
+  padding: 200px 252px;
 }
 
 .hero__link {
   color: #ffffff;
   background-color: #2196f3;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  display: inline-block;
+  display: block;
   padding: 10px 32px;
   border-radius: 4px;
   margin: 30px auto;
 }
 
 .hero__title {
-  text-transform: uppercase;
   display: block;
-  text-align: center;
-  font-size: 44px;
-  line-height: 1.36;
 }
 
 /* MIDDLE-FIRST-PART  */
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
 .section__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,29 +1094,16 @@ img {
           justify-content: space-between;
 }
 
-.item__title {
-  line-height: 1.17;
-  font-weight: 700;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
 .section__text {
   margin-top: 10px;
   line-height: 1.71;
   font-weight: 400;
   color: #757575;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .section__item {
-  -ms-flex-preferred-size: calc(100%-4 * 270);
-      flex-basis: calc(100%-4 * 270);
+  -ms-flex-preferred-size: calc(100%-4 * 270px);
+      flex-basis: calc(100%-4 * 270px);
   margin-right: 25px;
 }
 
@@ -311,11 +1128,9 @@ img {
   margin-top: 95px;
 }
 
-.section__title {
-  font-size: 36px;
-  line-height: 1.17;
-  font-weight: 700;
-  text-align: center;
+.item__title {
+  margin-top: 30px;
+  text-align: left;
 }
 
 .gallery {
@@ -350,13 +1165,7 @@ img {
   background: rgba(47, 48, 58, 0.8);
   /* opp-title */
   color: #ffffff;
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  text-transform: uppercase;
   text-align: center;
-  white-space: nowrap;
 }
 
 .gallery__caption {
@@ -367,7 +1176,6 @@ img {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #ffffff;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -378,8 +1186,6 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-preferred-size: calc -980%;
-      flex-basis: calc -980%;
   margin-right: -30px;
   margin-top: 50px;
 }
@@ -405,15 +1211,11 @@ img {
   font-size: 16px;
   line-height: 1.19;
   color: #212121;
-  text-align: center;
 }
 
 .cardset__data-text {
   color: #757575;
-  font-size: 16px;
-  line-height: 1.19;
   margin-top: 10px;
-  text-align: center;
 }
 
 .social-block {
@@ -455,8 +1257,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__link:hover,
-.social__link:active {
+.social__link:hover, .social__link:active {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -516,11 +1317,149 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.partners-list__link:hover,
-.partners-list__link:focus {
+.partners-list__link:hover, .partners-list__link:focus {
   color: #2196f3;
   -webkit-box-shadow: 0 0 0 1px #2196f3;
           box-shadow: 0 0 0 1px #2196f3;
+}
+
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
 }
 
 .footer {
@@ -529,25 +1468,8 @@ img {
   color: #ffffff;
 }
 
-.footer-layout {
-  padding: 60px 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .footer__link {
   color: #ffffff;
-}
-
-.footer-contacts {
-  margin-top: 9px;
-  color: #212121;
-  opacity: 0.6;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .footer__address {
@@ -558,25 +1480,32 @@ img {
   margin-right: 70px;
 }
 
-.footer__part h2 {
-  text-align: left;
-}
-
 .footer__title {
   color: #ffffff;
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  text-transform: uppercase;
-  text-align: center;
-  white-space: nowrap;
+  text-align: left;
 }
 
 .footer__label {
   top: 0;
   left: 0;
   position: absolute;
+}
+
+.footer-layout {
+  padding: 60px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-contacts {
+  margin-top: 9px;
+  color: #212121;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .backdrop {
@@ -652,6 +1581,145 @@ img {
   height: 11px;
 }
 
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
 .form-field {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -671,33 +1739,11 @@ img {
   padding: 40px 42px;
 }
 
-.modal__title {
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 0.03em;
-}
-
 .modal__input {
   height: 16px;
   padding: 12px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-
-.modal-link {
-  margin: 30px auto 0 auto;
-}
-
-.form-field--gap {
-  margin-top: 28px;
-}
-
-.form-field--top-gap {
-  margin-top: 30px;
-}
-
-.form-field:focus-within {
-  fill: #2196f3;
 }
 
 .modal__memo {
@@ -728,6 +1774,22 @@ img {
           transform: translate(50%, 50%);
 }
 
+.form-field--gap {
+  margin-top: 28px;
+}
+
+.form-field--top-gap {
+  margin-top: 30px;
+}
+
+.modal-link {
+  margin: 30px auto 0 auto;
+}
+
+.form-field:focus-within {
+  fill: #2196f3;
+}
+
 .footer-link__icon {
   width: 24px;
   height: 24px;
@@ -756,6 +1818,145 @@ img {
   opacity: 0.3;
 }
 
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
 .checkbox-submit {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -769,11 +1970,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   color: #757575;
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .checkbox-submit__checkbox {
@@ -787,6 +1983,14 @@ img {
   overflow: hidden;
 }
 
+.checkbox-submit__checkbox:checked ~ .checkbox-submit__icon {
+  background-color: #2196f3;
+  background-image: url(../images/icon-check.svg);
+  background-size: contain;
+  background-origin: border-box;
+  border-color: #2196f3;
+}
+
 .checkbox-submit__icon {
   display: inline-block;
   width: 16px;
@@ -796,25 +2000,152 @@ img {
   margin-right: 8px;
 }
 
-.checkbox-submit__checkbox:checked ~ .checkbox-submit__icon {
-  background-color: #2196f3;
-  background-image: url(../images/icon-check.svg);
-  background-size: contain;
-  background-origin: border-box;
-  border-color: #2196f3;
-}
-
-/* нащвание стиля отличается от предыдущей версии проекта без scss  */
+/* название стиля отличается от предыдущей версии проекта без scss  */
 .checkbox-submit_underline-link {
   text-decoration: underline;
 }
 
-.portfolio-page {
-  color: #212121;
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-weight: 500;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
   font-size: 14px;
   line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.portfolio-page {
+  color: #212121;
 }
 
 .filter {
@@ -828,38 +2159,6 @@ img {
   top: -1px;
 }
 
-.filter__link {
-  color: #212121;
-  display: inline-block;
-  padding: 7px 22px;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-weight: 500;
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-.filter__link:hover,
-.filter__link:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-
-.portfolio-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-}
-
-.portfolio-text {
-  font-weight: 700;
-  line-height: 1.88;
-  color: #757575;
-}
-
 .filter__item {
   margin-right: 8px;
   border-radius: 4px;
@@ -867,12 +2166,164 @@ img {
   display: inline-block;
 }
 
+.filter__link {
+  color: #212121;
+  display: inline-block;
+  padding: 7px 22px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter__link:hover, .filter__link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
 .grid-cardset {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: calc(100%-3 * 370);
-      flex-basis: calc(100%-3 * 370);
+  -ms-flex-preferred-size: calc(100% / 2 - 30px);
+      flex-basis: calc(100% / 2 - 30px);
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: -30px;
@@ -903,10 +2354,148 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.grid-cardset__link:hover,
-.grid-cardset__link:focus {
+.grid-cardset__link__link:hover, .grid-cardset__link__link:focus {
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12), 0px 40px 40px rgba(0, 0, 0, 0.06), 10px 40px 60px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12), 0px 40px 40px rgba(0, 0, 0, 0.06), 10px 40px 60px rgba(0, 0, 0, 0.16);
+}
+
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+  font-weight: 700;
+  font-family: "Raleway", "Verdana", "Tahoma", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero__title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.hero__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.item__title, .gallery__title, .gallery__caption, .footer__title {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.contacts-list__link, .nav-list__link, .main-page, .portfolio-page {
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.thumb-overlay__text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__title {
+  font-size: 20px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.modal__input, .modal__memo, .modal__label {
+  font-size: 12px;
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.footer-link,
+.modal-link, .footer__link {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.filter__link {
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-text {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.cardset__data-title {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.section__text, .footer__address, .footer-contacts, .checkbox-submit {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__text {
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+}
+
+.grid-cardset__title {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
 }
 
 .card-thumb {
@@ -914,7 +2503,23 @@ img {
   overflow: hidden;
 }
 
+.grid-cardset__title {
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  display: block;
+  color: #212121;
+  text-align: left;
+}
+
+.grid-cardset__text {
+  color: #757575;
+}
+
 .grid-cardset__link:hover > .card-thumb::before {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.grid-cardset__link:hover .thumb-overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
@@ -941,18 +2546,8 @@ img {
           box-sizing: border-box;
   display: block;
   position: absolute;
+  padding: 63px 24px;
   width: 100%;
   color: #ffffff;
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  padding: 63px 24px;
-}
-
-.grid-cardset__link:hover .thumb-overlay {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 /*# sourceMappingURL=main.css.map */

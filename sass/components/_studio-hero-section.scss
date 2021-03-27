@@ -1,34 +1,23 @@
-@import '../utils/variables';
+@import "../utils/variables";
+@import "../utils/placeholders";
 
 .hero {
-    font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-    font-weight: 900;
-    color: $color-primary;
-  
-    padding: 200px 252px;
-    letter-spacing: 0.06em;
-    text-align: center;
-  }
-  
-  .hero__link {
+  color: $color-primary;
+  padding: 200px 252px;
+
+  &__link {
     color: $color-primary;
     background-color: $color-accent;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-  
-    display: inline-block;
+    @extend %hero__link;
+
+    display: block;
     padding: 10px 32px;
     border-radius: 4px;
     margin: 30px auto;
   }
-  
-  .hero__title {
-    text-transform: uppercase;
-    display: block;
-    text-align: center;
-    font-size: 44px;
-    line-height: 1.36;
-  }
 
-  
+  &__title {
+    display: block;
+    @extend %hero__title;
+  }
+}

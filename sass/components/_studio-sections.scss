@@ -1,11 +1,13 @@
 @import '../utils/variables';
+@import "../utils/placeholders";
 
 .main-page {
   color: $color-black;
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
+  @extend %title-links-font; 
+}
+
+.section__title {
+  @extend %section__title;
 }
 
 .section:first-child {

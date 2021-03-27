@@ -1,59 +1,50 @@
-@import '../utils/variables';
+@import "../utils/variables";
+@import "../utils/placeholders";
 
 .footer {
-    background-color: $color-footerbg;
-    font-weight: 400;
+  background-color: $color-footerbg;
+  font-weight: 400;
+  color: $color-primary;
+  &__link {
     color: $color-primary;
+    @extend %link-btn-text;
   }
-  
-  .footer-layout {
-    padding: 60px 15px;
-    display: flex;
-  }
-  
-  .footer__link {
-    color: $color-primary;
-  }
-  
-  .footer-contacts {
-    margin-top: 9px;
-    color:$color-black; 
-    opacity: 0.6;
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
-  
-  .footer__address {
+  &__address {
+    @extend %light-text;
     margin-top: 20px;
   }
-  
-  .footer__part {
+
+  &__part {
     margin-right: 70px;
   }
-  
-  .footer__part h2 {
+
+  &__title {
+    color: $color-primary;
+    @extend %title-font;
     text-align: left;
   }
-  
-  .footer__title {
-    color: $color-primary;
-    font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    text-transform: uppercase;
-    text-align: center;
-    white-space: nowrap;
-  }
-  
-  .footer__label {
+
+  &__label {
     top: 0;
     left: 0;
     position: absolute;
   }
+}
 
-  
+.footer-layout {
+  padding: 60px 15px;
+  display: flex;
+}
 
+.footer-contacts {
+  @extend %light-text;
+  margin-top: 9px;
+  color: $color-black;
+  opacity: 0.6;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
